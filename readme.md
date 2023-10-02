@@ -1,5 +1,5 @@
 # Top Anime Scraper
-This is a Scrapy project that is designed to scrape the top anime from [ThisAnimeList](https://myanimelist.net/topanime.php). This is a pet project focusing on creating the scrapy web crawler for something in lined with my new found interest in anime. The website Mayanimelistz.com uses critics feedback to generate the pieces of information about the anime which are very authentic and apparently, well received in the anime community. The scraper extracts anime titles, scores, episode count, aired dates, and user counts. This project can be open for future improvements.
+This is a Scrapy project that is designed to scrape the top anime from [ThisAnimeList](https://myanimelist.net/topanime.php). This is a pet project focusing on creating the scrapy web crawler for something in lined with my new found interest in anime. The website Mayanimelistz.com uses critics feedback to generate the pieces of information about the anime which are very authentic and apparently, well received in the anime community. The scraper extracts anime titles, scores, episode count, aired dates, and user counts. This project can be open for future improvements like, saving the extracted data into a database and writing a querying script in order to gain even more insights. 
 
 ## Dependencies
 - Python 3.8 or higher
@@ -45,6 +45,8 @@ This is a Scrapy project that is designed to scrape the top anime from [ThisAnim
 ## 🔮 Future Improvements:
 - [ ] Scrape more data (e.g. genre, studio, source, etc.)
 - [ ] Scrape other pages (e.g. top manga, top characters, etc.)
+- [ ] Save the extracted data and files to a databse
+- [ ] Write query for better insights and usage of the data. 
 
 ## Note:
     The scraper is set to loop through 20 pages of the top anime list (self.iterations < 19). 1 page has 50 titles, so scraping 20 pages will generate 1000 records. You can adjust this value based on your requirements.
