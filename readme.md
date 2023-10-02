@@ -12,18 +12,18 @@ This is a Scrapy project that is designed to scrape the top anime from [ThisAnim
     ```
 2. Clone this repository:
     ```shell
-    git clone https://github.com/bimarakajati/MyAnimeList-Scraping.git
+    git clone https://github.com/HaaaSiiiib/Anime-watchlist.git
     ```
 3. Navigate to the MyAnimeList-Scraping folder:
     ```shell
-    cd MyAnimeList-Scraping
+    cd Anime-watchlist
     ```
 4. To run the scraper, execute the following command:
     ```shell
     scrapy crawl scrapy_mal -O myanimelist.csv
     ```
     ```shell
-    scrapy crawl scrapy_mal -O myatopnimelist.json
+    scrapy crawl scrapy_mal -O myTopAnimeList.json
     ```
 5. The scraped data will be saved in CSV/JSON format.
 
@@ -46,7 +46,7 @@ This is a Scrapy project that is designed to scrape the top anime from [ThisAnim
 - [ ] Scrape more data (e.g. genre, studio, source, etc.)
 - [ ] Scrape other pages (e.g. top manga, top characters, etc.)
 
-## 📝 Note:
+## Note:
     The scraper is set to loop through 20 pages of the top anime list (self.iterations < 19). 1 page has 50 titles, so scraping 20 pages will generate 1000 records. You can adjust this value based on your requirements.
 
     Remember to respect the website's terms of service and rate-limit your requests to avoid overloading their server.
@@ -55,6 +55,9 @@ This is a Scrapy project that is designed to scrape the top anime from [ThisAnim
 
     If you have any questions, please feel free to contact me. Happy scraping! 🕷️
 
-## 📙 Reference:
+## Reference:
 - https://myanimelist.net/
 - https://docs.scrapy.org/
+
+## copy-write:
+-Md.fuad Al Hasib
