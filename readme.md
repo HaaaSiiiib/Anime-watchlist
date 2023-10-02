@@ -67,4 +67,4 @@ This is a Scrapy project that is designed to scrape the top anime from [ThisAnim
 - https://docs.scrapy.org/
 
 ## copy-write:
--Md.fuad Al Hasib
+- Md.fuad Al Hasib
