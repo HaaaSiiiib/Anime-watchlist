@@ -55,6 +55,8 @@ This is a Scrapy project that is designed to scrape the top anime from [ThisAnim
     The scraper is set to loop through 20 pages of the top anime list (self.iterations < 19). 1 page has 50 titles, so scraping 20 pages will generate 1000 records. You can adjust this value based on your requirements.
 
     Remember to respect the website's terms of service and rate-limit your requests to avoid overloading their server.
+    
+    Remember to follow the guidelines of robots.txt. If you don't know what is robots.txt check this out : https://developers.google.com/search/docs/crawling-indexing/robots/intro
 
     Feel free to fork this repository, modify the code, and create a pull request. I will be happy to review and merge it.
 
