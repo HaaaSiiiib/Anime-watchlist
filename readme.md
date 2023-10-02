@@ -1,8 +1,8 @@
 # Top Anime Scraper
 This is a Scrapy project that is designed to scrape the top anime from [ThisAnimeList](https://myanimelist.net/topanime.php). The scraper extracts anime titles, scores, episode count, aired dates, and user counts.
 
-## ✨ Prerequisites
-- Python 3.x
+## Dependencies
+- Python 3.8 or higher
 - Scrapy
 
 ## 💁‍ How to use:
@@ -27,7 +27,7 @@ This is a Scrapy project that is designed to scrape the top anime from [ThisAnim
     ```
 5. The scraped data will be saved in CSV/JSON format.
 
-## ✨ Result:
+## Demo Results:
 |title                                              |score|episode        |aired              |user             |
 |---------------------------------------------------|-----|---------------|-------------------|-----------------|
 |Fullmetal Alchemist: Brotherhood                   |9.10 |TV (64 eps)    |Apr 2009 - Jul 2010|3,203,554 members|
