@@ -1,4 +1,7 @@
 # Top Anime Scraper --- Anime-watchlist
+
+Hi, this is Hasib, and this is one of my pet projects in learning web scraping focusing on the scrapy framework.
+
 This is a Scrapy project that is designed to scrape the top anime from [ThisAnimeList](https://myanimelist.net/topanime.php). This is a pet project focusing on creating the scrapy web crawler for something in lined with my new found interest in anime. The website Mayanimelistz.com uses critics feedback to generate the pieces of information about the anime which are very authentic and apparently, well received in the anime community. The scraper extracts anime titles, scores, episode count, aired dates, and user counts. This project can be open for future improvements like, saving the extracted data into a database and writing a querying script in order to gain even more insights. 
 
 ## Dependencies
